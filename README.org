@@ -1,0 +1,12 @@
+[[file:LICENSE][https://img.shields.io/github/license/ROCKTAKEY/roquix.svg?style=flat-square]]
+* How to Use?
+Write to =.config/guix/channels.scm=:
+#+BEGIN_SRC scheme -n
+  (cons* (channel
+          (name 'markgdawson)
+          (url "https://github.com/markgdawson/guix-channel"))
+         %default-channels)
+         #+END_SRC
+
+* License
+  This package is licensed by GPLv3. See [[file:LICENSE][LICENSE]].
